@@ -1,0 +1,18 @@
+{
+  "name": "trumptax-calculator",
+  "version": "1.0.0",
+  "description": "Calculates the current tax burden to support Donald Trump's lifestyle",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trumptax/trumptax-calculator.git"
+  },
+  "author": "Dan Dean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trumptax/trumptax-calculator/issues"
+  },
+  "homepage": "https://github.com/trumptax/trumptax-calculator#readme",
+  "dependencies": {}
+}
