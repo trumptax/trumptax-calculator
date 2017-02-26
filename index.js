@@ -35,7 +35,7 @@ const trumpStartMs = trumpStartDate.getTime();
 /**
  * Calculates the cost of Trump's tax burden at `date`.
  */
-exports.calculate = (date = new Date()) => {
+exports.calculate = function calculate(date = new Date()) {
   const elapsedTime = date.getTime() - trumpStartMs;
   return (elapsedTime * nycCostPerMs) + baseline;
 }
@@ -43,7 +43,7 @@ exports.calculate = (date = new Date()) => {
 /**
  * Formats `value` in US Dollars
  */
-exports.usdollars = (value) => {
+exports.usdollars = function usdollars(value) {
   const formatted = value.toLocaleString('en-US', {
     style: 'currency',
     currency: 'USD'
