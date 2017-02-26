@@ -12,7 +12,7 @@ const baselineCosts = [
 ];
 
 // All individual costs added to a single value:
-const baseline = baselineCosts.reduce((accumulator, value, index) => {
+const baseline = baselineCosts.reduce(function(accumulator, value, index) {
   return accumulator + value;
 }, 0);
 
