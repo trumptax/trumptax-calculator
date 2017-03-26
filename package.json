@@ -1,6 +1,6 @@
 {
   "name": "trumptax-calculator",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Calculates the current tax burden to support Donald Trump's lifestyle",
   "main": "index.js",
   "scripts": {},
