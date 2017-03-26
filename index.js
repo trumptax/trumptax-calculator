@@ -6,7 +6,7 @@ const baselineCosts = [
   // http://www.cbsnews.com/news/president-trump-mar-a-lago-trips-cost-taxpayers-millions/
   // Slightly more conservative (literally, not politically) figures:
   // https://www.washingtonpost.com/news/politics/wp/2017/03/17/how-much-is-donald-trumps-travel-and-protection-costing-anyway/
-  2000000 * 3,
+  2000000 * 6,
 
   // Eric Trump's Uruguay trip
   // http://thehill.com/homenews/administration/317863-eric-trump-uruguay-trip-cost-taxpayers-98k-report
