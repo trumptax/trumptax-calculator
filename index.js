@@ -4,7 +4,9 @@ const baselineCosts = [
   // http://www.politico.com/story/2017/02/trump-mar-lago-taxpayers-234562
   // Now three of these:
   // http://www.cbsnews.com/news/president-trump-mar-a-lago-trips-cost-taxpayers-millions/
-  3000000 * 3,
+  // Slightly more conservative (literally, not politically) figures:
+  // https://www.washingtonpost.com/news/politics/wp/2017/03/17/how-much-is-donald-trumps-travel-and-protection-costing-anyway/
+  2000000 * 3,
 
   // Eric Trump's Uruguay trip
   // http://thehill.com/homenews/administration/317863-eric-trump-uruguay-trip-cost-taxpayers-98k-report
@@ -18,7 +20,9 @@ const baseline = baselineCosts.reduce(function(accumulator, value, index) {
 
 // Cost for security in NYC
 // http://money.cnn.com/2016/11/21/news/protecting-donald-trump/
-const nycCostPerYear = 1000000.00 * 365;
+// Updated, slightly more conservative (literally, not politically) figures:
+// https://www.washingtonpost.com/news/politics/wp/2017/03/17/how-much-is-donald-trumps-travel-and-protection-costing-anyway/
+const nycCostPerYear = 200000.00 * 365;
 
 // The number of milliseconds per year:
 const msPerYear = 31536000000;
